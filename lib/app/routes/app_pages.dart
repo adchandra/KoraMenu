@@ -1,10 +1,10 @@
 
+import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 
 import '../modules/admin/bindings/admin_binding.dart';
 import '../modules/admin/views/admin_view.dart';
 import '../modules/contact/bindings/contact_binding.dart';
-import '../modules/contact/views/contact_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/list/bindings/list_binding.dart';
@@ -34,12 +34,12 @@ class AppPages {
     ),
     GetPage(
       name: Routes.LIST,
-      page: () => const  ListView(),
+      page: () => ListView(),
       binding: ListBinding(),
     ),
     GetPage(
       name: Routes.CONTACT,
-      page: () => const  ContactView(),
+      page: () => const ContactView(),
       binding: ContactBinding(),
     ),
     GetPage(
