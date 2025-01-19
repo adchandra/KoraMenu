@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'KORA MENU',
       debugShowCheckedModeBanner: false,
-      initialRoute: Routes.LOGIN, // Set initial route
+      initialRoute: Routes.HOME, // Set initial route
       getPages: AppPages.routes, // Gunakan rute yang sudah didefinisikan
     );
   }
